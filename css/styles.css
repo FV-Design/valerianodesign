@@ -1,0 +1,411 @@
+/* import global styling */
+@import url(_global.css);
+
+
+/* SPACERS */
+
+.navspacer{
+    background-color: white;
+    width: auto;
+    height: 1px;
+    padding-top: 78px;
+}
+
+.spacer{
+    background-color: cornsilk;
+    width: auto;
+    height: 5px;
+    padding-bottom: 15px;
+}
+
+.dot-spacer{
+    text-align: center;
+    background-color: #fcfcfc;
+}
+
+.img-spacer{
+    background-image: url(../img/imgspacer.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    padding: 15rem 0 15rem 0;
+}
+
+#spacer-who{
+        padding-top: 86px;
+        margin-top: -86px;
+}
+
+#spacer-skill{
+    padding-top: 86px;
+    margin-top: -86px;
+}
+
+/* GLOBAL */
+
+.st-para{
+    font: normal 500 33px 'Amatic SC';
+    text-decoration: none;
+    padding: 1rem 0;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.st-title{
+    font: normal 500 56px 'Amatic SC';
+    text-transform: uppercase;
+    
+    
+}
+
+.st-title span{
+    background-color: cornsilk;
+    padding: 5px 5px;
+}
+
+/* Start NavBar */
+
+.header-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color:#3A393F;
+    width: 100%;
+    position: fixed;
+}
+
+.header-area .logo{
+    background-image: url(../img/logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 23px 130px;
+    margin-left:10%;
+}
+
+.header-area nav{
+ margin-top: 15px;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    top: 50%;
+  
+}
+
+.navbar li{
+    padding: 0px 20px;
+}
+
+.navbar a{
+    font: normal 500 18px/2px 'Alegreya Sans';
+    text-transform: uppercase;
+    color:#C1BEB7;
+    text-decoration: none;
+}
+
+.navbar li a {
+    transition: all 0.4s ease 0s;
+  }
+
+.navbar li a:hover {
+    color: #F0CE2D;
+}
+
+
+/* End NavBar */
+
+/* Start Main Logo */
+.img-main{
+    background-image: url(../img/pcbackn2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    padding: 20rem 0 24rem 0;
+
+}
+
+
+.main-container .main-row{
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arrow{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+
+
+.arrow .arrow-img{
+    width: 8%;
+    height: 8%;
+}
+
+.main-container .main-row .main-text{
+    font: normal 500 62px 'Amatic SC';
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.main-container .main-row .main-text-2{
+    font: normal 500 40px 'Amatic SC';
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+/* End Main Logo */
+
+
+/* Start Who Area */
+
+.who-area{
+    padding: 12rem 0;
+    background-color: #fcfcfc;
+}
+
+.who-area .who-container{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.who-area .who-container .who-text{  
+    justify-content: center;
+    text-align: center;
+}
+
+
+.who-area .who-container .who-image{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
+/* End Who Area */
+
+
+
+/* Start Skill Area */
+
+.skill-cont-main{
+    background-color: #fcfcfc;
+}
+
+.skill-area{
+    padding: 11rem 0;
+    background-color: #fcfcfc;
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-area .skill-container1{
+    width: 50%;
+}
+
+.skill-area .skill-container1 .skill-text .st-title{
+    text-align: right;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-area .skill-container1 .skill-text .st-para{
+    width: 80%;
+    padding-top: 2rem;
+    text-align: right;
+}
+
+
+.skill-area .skill-container2{
+    width: 50%;
+}
+
+.skill-area .skill-container2 .st-para{
+    padding-top: 1rem;
+    padding-bottom: 0;
+}
+
+.skill-area .skill-container2 .flex-list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.skill-area .skill-container2 .flex-list .skill-list{
+    text-align: center;
+    list-style: none;
+}
+
+.skill-area .skill-container2 .flex-list .skill-list li{
+    padding: 15px 0;
+}
+
+.skill-area .skill-container2 .flex-list .st-para{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.skill-text{
+    text-align: center;
+}
+
+
+.skill-list span{
+    background-color:cornsilk;
+    padding: 3px 3px;
+    font-size: 30px;
+}
+
+/* End Skill Area */
+
+
+/* Start Contact Area */
+
+.contact-area{
+    background-color: #fcfcfc;
+}
+
+.contact-area .contact-container{
+    padding: 11rem 0rem;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-area .contact-container .st-title{
+    padding-bottom: 2rem;
+}
+
+.contact-area .contact-container .st-para{
+    margin-bottom: 3rem;
+}
+
+.cta {
+    font: normal 700 24px 'Amatic SC';
+    padding: 9px 25px;
+    background-color: #ffe680;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #665200;
+  }
+  
+  .cta:hover {
+    background-color: cornsilk;
+  }
+
+/* End Contact Area */
+
+/* Start Footer */
+
+.footer-area{
+    background-color:#3A393F;
+    padding: 30px 5%;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    background-color:#3A393F;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-footer{
+    display: flex;
+    list-style: none;
+}
+
+.navbar-footer li{
+    padding: 0px 20px;
+}
+
+.navbar-footer a{
+    font: normal 500 12px/2px 'Alegreya Sans';
+    text-transform: uppercase;
+    color:#C1BEB7;
+    text-decoration: none;
+}
+
+.navbar-footer li a {
+    transition: all 0.4s ease 0s;
+  }
+
+.navbar-footer li a:hover {
+    color: #F0CE2D;
+}
+
+.footer-area .footer-container .rights{
+    font: normal 500 12px 'Alegreya Sans';
+    color:#C1BEB7;
+}
+
+
+/* End Footer */
+
+
+/* Mobile Devices */
+
+@media only screen and (max-width: 800px) {
+    .st-para{
+        width: 70%;
+        
+    }
+
+    .skill-area{
+        display: block;
+    }
+
+    .skill-area .skill-container1{
+        width: 100%;
+    }
+
+    .skill-area .skill-container2{
+        width: 100%;
+    }
+
+    .skill-area .skill-container1 .skill-text .st-title{
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .skill-area .skill-container1 .skill-text .st-para{
+        width: 90%;
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+    .navbar{
+        display: none;
+    }
+}
